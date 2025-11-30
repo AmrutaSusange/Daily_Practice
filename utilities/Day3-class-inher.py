@@ -8,7 +8,6 @@ class Vehicle():
         self.fuel = 200
     def emptyTank(self):
         self.fuel = 0
-
     def fuelLeft(self):
         return self.fuel
 
