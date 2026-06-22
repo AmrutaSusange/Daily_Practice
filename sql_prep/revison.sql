@@ -75,4 +75,25 @@ where e.salary > m.salary
 
 
 -- Question 9: What is the difference between LEFT JOIN, INNER JOIN, RIGHT JOIN, and FULL O
+
+
+select * from TableA
+select * from TableB
+
+select * from TableA
+inner join TableB
+on TableA.col1 = TableB.col1
+
+select * from TableA
+left join TableB
+on TableA.col1 = TableB.col1
+
+select * from TableA
+right join TableB
+on TableA.col1 = TableB.col1
+
+select * from TableA
+full outer join TableB
+on TableA.col1 = TableB.col1
+
 -- Question 10: How to swap values in a single column without using multiple update statements? (e.g., fixing a mistake by swapping 'Male' to 'Female' and vice versa using CASE WHEN).
