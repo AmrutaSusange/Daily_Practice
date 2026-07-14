@@ -10,7 +10,7 @@ def count_num(arr):
                 count[num] =1
 
     for nums, counts in count.items():
-            if counts %2 != 0:
+            if counts /2 != 0:
                 return nums
     
 print(count_num(arr))
